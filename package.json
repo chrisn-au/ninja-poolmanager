@@ -1,0 +1,13 @@
+{
+  "name": "ninja_poolmanager",
+  "version": "0.0.1",
+  "description": "Pool heating manager for Ninjablock ",
+  "main": "index.js",
+  "dependencies" : {
+     "suncalc" : "1.0.0",
+     "date-utils" : "*"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
