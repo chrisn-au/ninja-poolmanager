@@ -1,6 +1,6 @@
-# NINJA TIMEOFDAY
+# NINJA POOLMANAGER
 
-A Time of Day state device
+A Ninja Block driver to manager solar hearing on pool - bare bones at the sec
 
 ## Installation
 
@@ -21,21 +21,12 @@ the password should be temppwd
 ```
 cd /opt/ninja/drivers
 
-git clone https://github.com/chrisn-au/ninja_timeofday.git
+git clone https://github.com/chrisn-au/ninja-poolmanager.git
 
-cd ninja_timeofday
+cd ninja-poolmanager
 
 npm install
 
-```
-
-### Step 3 - Update the times that you would like to be notified
-
-Edit the config file in `/opt/ninja/config/ninja_timeofday` using [config.json](config.json) as an example
-
-```
-mkdir -p /opt/ninja/config/ninja_timeofday
-vi /opt/ninja/config/ninja_timeofday/config.json
 ```
 
  
@@ -50,17 +41,15 @@ sudo service ninjablock restart
 
 Find the new device on the dashboard. From the cog on the top left corner choose add new state and add
 
-	DAWN
-	DAY
-	DUSK
-	NIGHT
-
-and any others you have added
+	ON
+	OFF
 
 
 ### todo list
 
-add config ability from the dashboard
+externalise config
+make intelligence
+so so much more
 
 
 ## License
